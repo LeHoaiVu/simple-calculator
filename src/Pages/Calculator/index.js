@@ -16,10 +16,6 @@ const Calculator = () => {
     }, []);
 
     useEffect(() => {
-        console.log("calculation :>> ", calculation);
-    }, [calculation]);
-
-    useEffect(() => {
         if (operator != null) {
             let itemBeforeOperator = 0;
             let itemAfterOperator = 0;
