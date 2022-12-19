@@ -170,7 +170,6 @@ const Calculator = () => {
         }
     };
 
-    //remove the last string from calculation
     const showResult = () => {
         return calculation.filter((item) => item !== "$");
     };
