@@ -16,6 +16,10 @@ const Calculator = () => {
     }, []);
 
     useEffect(() => {
+        console.log("calculation :>> ", calculation);
+    }, [calculation]);
+
+    useEffect(() => {
         if (operator != null) {
             let itemBeforeOperator = 0;
             let itemAfterOperator = 0;
@@ -170,6 +174,7 @@ const Calculator = () => {
         }
     };
 
+    //remove the last string from calculation
     const showResult = () => {
         return calculation.filter((item) => item !== "$");
     };

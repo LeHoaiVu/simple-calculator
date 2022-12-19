@@ -1,1 +1,5 @@
+/* implement css for desktop */
 @import "./sections/index.css";
+
+/* implement css for tablet and mobile */
+@import "./responsive/index.css";

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 360px) {
+    .double-width {
+        flex-basis: 50%;
+        color: #fff;
+        padding: 15px;
+        font-size: 20px;
+    }
+    .keypad {
+        padding: 15px;
+        font-size: 20px;
+    }
+}
