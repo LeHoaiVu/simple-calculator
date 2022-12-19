@@ -164,12 +164,14 @@ const Calculator = () => {
     const updateCalculation = (value) => {
         if (result !== 0) {
             setPrevResult(result);
+            // add $ to end previous calculation
             setCalculation([...calculation, "$", value]);
         } else {
             setCalculation([...calculation, value]);
         }
     };
 
+    //remove $ end previous calculation
     const showResult = () => {
         return calculation.filter((item) => item !== "$");
     };
