@@ -1,0 +1,12 @@
+.calculator-container {
+    display: flex;
+    justify-content: center;
+    max-width: 40%;
+    flex-direction: column;
+    box-shadow: 0 8px 50px -7px black;
+}
+.keypad-wrapped {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
